@@ -7,5 +7,5 @@
   <%= f.label :ingredients %></br>
   <%= f.collection_check_boxes :ingredient_ids, Ingredient.all, :id, :name %>
 
-  <%= f.submit "Create Recipe"
+  <%= f.submit "Create Recipe" %>
 <% end %>
